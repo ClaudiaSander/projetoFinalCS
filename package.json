@@ -1,0 +1,26 @@
+{
+  "name": "projetofinalcs",
+  "version": "1.0.0",
+  "description": "Projeto final do curso de formação em teste de software",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "cucumber": "tsc && cucumber-js"
+  },
+  "jest": {
+    "testTimeout": 60000
+  },
+  "keywords": [],
+  "author": "Claudia Sander",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.9.1",
+    "chai": "^4.3.7",
+    "chromedriver": "^107.0.3",
+    "jest": "^29.3.1",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.7.1",
+    "supertest": "^6.3.1",
+    "typescript": "^4.9.4"
+  }
+}
