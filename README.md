@@ -2,10 +2,11 @@
 Projeto: projetoFinalCS
 
 1 - criar uma funcionalidade simples e criar pelo menos um teste de unidade
-  Funcionalidade: calculosGeometricos.js 
-    - implementa cálculo de área de retângulos, círculos e triângulos
+  calculosGeometricos.js 
+    - funcionalidade que implementa cálculo de área de retângulos, círculos e triângulos
 
-  Testes unitários: calculosGeometricos.spec.js 
+  calculosGeometricos.spec.js 
+    Testes unitários:
     - testes de unidade com valores fixos
     - testes de unidade com massa de testes em array
     - testes de unidade com massa de testes em arquivo json
