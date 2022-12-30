@@ -32,7 +32,7 @@ Projeto: projetoFinalCS
                       
     Swagger: https://dadosabertos.camara.leg.br/swagger/api.html
 
-    OBS: também foi implementada a automação de alguns métodos da API de conexãoQA, mas a aplicação saiu do ar e não retornou mais.
+    OBS: também implementei a automação de alguns métodos da API de conexãoQA, mas a aplicação está fora do ar.
     Assim, os testes implementados em conexaoQaPerfis.spec.js e conexaoQaPosts.spec.js pararam de funcionar.
     Deixei o código só para indicar que havia trabalhado neles.
 
@@ -47,11 +47,13 @@ Projeto: projetoFinalCS
 
       siteIterasys.spec.js - fluxo de pesquisa de certificados e conferência de nome de perfil. 
       
-        Este teste funciona corretamente para meu usuário, mas, por motivos de segurança, retirei os dados de login do código. Mantive esta spec aqui apenas para registro.
+        Este teste funciona corretamente para meu usuário, mas, por motivos de segurança, retirei os dados de login do código.
+        Mantive esta spec aqui apenas para registro.
 
     Teste com Selenium WebDriver:
     
-      comprarPassagemWD.spec.js - testa o fluxo completo de compra de passagem no site BlazeDemo, incluindo seleção de um voo específico, preenchimento do form dp cartão, e compra
+      comprarPassagemWD.spec.js - testa o fluxo completo de compra de passagem no site BlazeDemo.
+      Inclui seleção de um voo específico, preenchimento dos dados do cartão e pagamento da passagem.
   
       Linha de comando para execução: npm run test comprarPassagemWD.spec.js
             
