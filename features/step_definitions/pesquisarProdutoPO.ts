@@ -20,7 +20,7 @@ After(async function(){
 })
 
 Given('acesso o site Petz', async function () {
-    await this.driver.get('https://www.petz.com.br/')    
+    await this.driver.get('https://www.petz.com.br')    
 });
 
 When('preencho nome do produto como {string} e clico Pesquisar e clico no produto', async function (produto) {
