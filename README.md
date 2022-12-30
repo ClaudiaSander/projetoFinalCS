@@ -1,7 +1,8 @@
 # projetoFinalCS
 Projeto: projetoFinalCS
 
-1 - criar uma funcionalidade simples e criar pelo menos um teste de unidade
+1 - criar uma funcionalidade simples e criar pelo menos um teste de unidade:
+
   calculosGeometricos.js 
     - funcionalidade que implementa cálculo de área de retângulos, círculos e triângulos
 
