@@ -29,6 +29,7 @@ Deixei os códigos só para indicar que havia trabalhado neles.
 
 
 3 - criar a automação de testes de pelo menos um fluxo de web (site)
+Testes criados inicialmente com Selenium IDE e depois ajustados:
 petzRacao.spec.js 
 - fluxo de pesquisa e conferência de valor de um produto (ração para gatos filhotes)
 Linha de comando para execução: npm run test petzRacao.spec.js
@@ -38,5 +39,9 @@ siteIterasys.spec.js
 Este teste funciona corretamente para meu usuário, mas, por motivos de segurança, retirei os dados de login do código.
 Mantive esta spec aqui apenas para registro.
 
+Teste com Selenium WebDriver:
+comprarPassagemWD.spec.js
+- testa o fluxo completo de compra de passagem no site BlazeDemo, incluindo seleção de um voo específico, preenchimento do form dp cartão, e compra
+  
 
 4 - criar a automação de testes de pelo menos um fluxo mobile (app)
