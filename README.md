@@ -7,9 +7,13 @@ Projeto: projetoFinalCS
     - funcionalidade que implementa cálculo de área de retângulos, círculos e triângulos
 
   calculosGeometricos.spec.js 
+  
     Testes unitários:
+    
     - testes de unidade com valores fixos
+    
     - testes de unidade com massa de testes em array
+    
     - testes de unidade com massa de testes em arquivo json
 
 Linha de comando para execução: npm run test calculosGeometricos.spec.js 
