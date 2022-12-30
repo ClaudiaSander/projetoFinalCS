@@ -18,8 +18,8 @@ Linha de comando para execução: npm run test calculosGeometricos.spec.js 
     - implementa automação de testes do método GET/partidos/<id partido> da API de dados abertos da Câmara Federal
 
   Testes implementados: Busca dados de partido existente
-                        Busca dados de partido inexistente
-                        Pesquisa partidos a partir de massa de testes em arquivo json
+                        Busca dados de partido inexistente
+                        Pesquisa partidos a partir de massa de testes em arquivo json
                       
   Swagger: https://dadosabertos.camara.leg.br/swagger/api.html
 
