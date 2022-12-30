@@ -25,8 +25,10 @@ Linha de comando para execução: npm run test calculosGeometricos.spec.js 
   
     - implementa automação de testes do método GET/partidos/<id partido> da API de dados abertos da Câmara Federal
 
-  Testes implementados: Busca dados de partido existente
+  Testes implementados: 
   
+                        Busca dados de partido existente
+                        
                         Busca dados de partido inexistente
                         
                         Pesquisa partidos a partir de massa de testes em arquivo json
@@ -50,8 +52,7 @@ Linha de comando para execução: npm run test calculosGeometricos.spec.js 
     siteIterasys.spec.js 
       - fluxo de pesquisa de certificados e conferência de nome de perfil. 
       
-      Este teste funciona corretamente para meu usuário, mas, por motivos de segurança, retirei os dados de login do código.
-      Mantive esta spec aqui apenas para registro.
+      Este teste funciona corretamente para meu usuário, mas, por motivos de segurança, retirei os dados de login do código. Mantive esta spec aqui apenas para registro.
 
     Teste com Selenium WebDriver:
     
