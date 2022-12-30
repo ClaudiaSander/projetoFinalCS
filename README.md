@@ -20,8 +20,7 @@ Projeto: projetoFinalCS
 
 2 - criar a automação de testes para pelo menos um método de uma API
 
-    Automação de testes: camaraFederal.spec.js 
-      - implementa automação de testes do método GET/partidos/<id partido> da API de dados abertos da Câmara Federal
+    Automação de testes: camaraFederal.spec.js - implementa automação de testes do método GET/partidos/<id partido> da API de dados abertos da Câmara Federal
 
     Testes implementados: 
   
@@ -42,20 +41,17 @@ Projeto: projetoFinalCS
 
     Testes criados inicialmente com Selenium IDE e depois ajustados:
   
-      petzRacao.spec.js 
-        - fluxo de pesquisa e conferência de valor de um produto (ração para gatos filhotes)
+      petzRacao.spec.js - fluxo de pesquisa e conferência de valor de um produto (ração para gatos filhotes)
       
         Linha de comando para execução: npm run test petzRacao.spec.js
 
-      siteIterasys.spec.js 
-        - fluxo de pesquisa de certificados e conferência de nome de perfil. 
+      siteIterasys.spec.js - fluxo de pesquisa de certificados e conferência de nome de perfil. 
       
         Este teste funciona corretamente para meu usuário, mas, por motivos de segurança, retirei os dados de login do código. Mantive esta spec aqui apenas para registro.
 
     Teste com Selenium WebDriver:
     
-      comprarPassagemWD.spec.js
-      - testa o fluxo completo de compra de passagem no site BlazeDemo, incluindo seleção de um voo específico, preenchimento do form dp cartão, e compra
+      comprarPassagemWD.spec.js - testa o fluxo completo de compra de passagem no site BlazeDemo, incluindo seleção de um voo específico, preenchimento do form dp cartão, e compra
   
       Linha de comando para execução: npm run test comprarPassagemWD.spec.js
             
