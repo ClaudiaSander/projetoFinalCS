@@ -23,9 +23,7 @@ describe ("Camara Federal - Testes de API",() => {
                 assert.equal(response.body.dados.uri, "https://dadosabertos.camara.leg.br/api/v2/partidos/" + idPartido);
             })
     })
-
-
-    
+  
     // Partidos - GET - Buscar dados de um partido inexistente
     it("Busca Dados de Partido Inexistente", () => {
         let idPartido = 1;
