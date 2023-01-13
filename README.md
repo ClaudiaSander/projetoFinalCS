@@ -40,13 +40,14 @@ Projeto: projetoFinalCS
 
     Testes criados inicialmente com Selenium IDE e depois ajustados:
   
-      petzRacao.spec.js - fluxo de pesquisa e conferência de valor de um produto (ração para gatos filhotes)
+        petzRacao.spec.js - fluxo de pesquisa e conferência de valor de um produto (ração para gatos filhotes)
       
-        Linha de comando para execução: npm run test petzRacao.spec.js
+            Linha de comando para execução: npm run test petzRacao.spec.js
 
-      siteIterasys.spec.js - fluxo de pesquisa de certificados e conferência de nome de perfil. 
+        siteIterasys.spec.js - fluxo de pesquisa de certificados e conferência de nome de perfil. 
       
-        Este teste funciona corretamente para meu usuário, mas, por motivos de segurança, retirei os dados de login do código. Com isso o teste deixou de funcionar, então removi essa spec do projeto.
+            Este teste funciona corretamente para meu usuário, mas, por motivos de segurança, retirei os dados de login do código.
+            Com isso o teste deixou de funcionar, então removi essa spec do projeto.
 
     Teste com Selenium WebDriver:
     
