@@ -3,6 +3,7 @@ import { Builder } from "selenium-webdriver"  //selenium
 require ("chromedriver")    //conversa com o browser
 import { assert } from "chai"
 import HomePage = require('../../pages/HomePage')
+const chrome = require('selenium-webdriver/chrome')
 
 Before(async function (){
 
