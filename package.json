@@ -14,7 +14,7 @@
   "author": "Claudia Sander",
   "license": "ISC",
   "devDependencies": {
-    "@cucumber/cucumber": "^8.9.1",
+    "@cucumber/cucumber": "^8.10.0",
     "chai": "^4.3.7",
     "chromedriver": "^107.0.3",
     "jest": "^29.3.1",
