@@ -51,14 +51,14 @@ Projeto: projetoFinalCS
 
     Teste com Selenium WebDriver:
     
-      comprarPassagemWD.spec.js - testa o fluxo completo de compra de passagem no site BlazeDemo.
-      Inclui seleção de um voo específico, preenchimento dos dados do cartão e pagamento da passagem.
+        comprarPassagemWD.spec.js - testa o fluxo completo de compra de passagem no site BlazeDemo.
+        Inclui seleção de um voo específico, preenchimento dos dados do cartão e pagamento da passagem.
   
-      Linha de comando para execução: npm run test comprarPassagemWD.spec.js
+            Linha de comando para execução: npm run test comprarPassagemWD.spec.js
     
     Teste com Page Objects e Gherkin:
     
-            pesquisarProdutoPO.feature - testa o fluxo de pesquisa de uma ração específica no site da Petz.
+        pesquisarProdutoPO.feature - testa o fluxo de pesquisa de uma ração específica no site da Petz.
   
             Linha de comando para execução: npm run cucumber
                  
