@@ -1,5 +1,6 @@
 const { Builder, By, Key, until } = require('selenium-webdriver')
 const assert = require('assert')
+require('chromedriver') 
 
 describe('petzRacao', function() {
   let driver
