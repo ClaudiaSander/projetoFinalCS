@@ -2,6 +2,8 @@ const { Builder, By, Key, until } = require('selenium-webdriver')
 const assert = require('assert')
 require('chromedriver')
 
+let { email, pass } = require("../../../vendors/json/credenciais.json");
+
 describe('iterasys', function() {
   let driver
   let vars
@@ -19,8 +21,8 @@ describe('iterasys', function() {
   it('siteIterasys', async function() {
     await driver.get("https://iterasys.memberkit.com.br/")
     await driver.manage().window().maximize()
-    await driver.findElement(By.id("user_email")).sendKeys('xxxxxx')
-    await driver.findElement(By.id("user_password")).sendKeys('xxxx')
+    await driver.findElement(By.id("user_email")).sendKeys(email)
+    await driver.findElement(By.id("user_password")).sendKeys(pass)
     await driver.findElement(By.name("commit")).click()
     await driver.findElement(By.css(".nav-item-certificate > .navbar__text")).click()
     assert(await driver.findElement(By.linkText("Certificado Técnicas de Teste")).getText() == "Certificado Técnicas de Teste")
