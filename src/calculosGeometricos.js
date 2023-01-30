@@ -1,4 +1,4 @@
-// Implementa cálculo de área de retângulos, cículos e triângulos
+// Implementa cálculo de área de retângulos, círculos e triângulos
 
 const areaRetangulo = function areaRetangulo (base, altura) {
     return base * altura;
